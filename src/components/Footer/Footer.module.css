@@ -52,4 +52,13 @@
     .lastfooter > div {
         margin-bottom: 20px; /* Increase margin between groups of icons and text */
     }
+    .bold {
+        font-size: 18px; /* Adjust font size for bold text on smaller screens */
+    }
+
+    .icons {
+        width: 30px; /* Reduce icon size for smaller screens */
+        height: 30px;
+        margin-right: 10px; /* Add margin to separate icons from text */
+    }
 }

@@ -24,3 +24,30 @@
     max-height: 1100px;
     margin-top: 20px; 
 }
+
+
+/* Media query for smaller screens (mobile devices) */
+@media screen and (max-width: 768px) {
+    .maindiv {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        align-items: center; /* Center elements horizontally */
+    }
+
+    .container {
+        justify-content: center; 
+        margin-bottom: 20px; 
+    }
+
+    .tropheeimage, .awardimage {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .texts {
+        font-size: 16px; 
+        text-align: center;
+    }
+}

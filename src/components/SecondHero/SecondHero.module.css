@@ -30,3 +30,40 @@
     background-color: black;
 }
 
+
+
+/* Media query for smaller screens (mobile devices) */
+@media screen and (max-width: 768px) {
+    .container {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center content horizontally */
+        text-align: center; /* Center text */
+    }
+
+    .parent {
+        display: flex;
+        flex-direction: column;
+        font-size: large; /* Adjust font size for smaller screens */
+        justify-content: center; 
+        align-items: center;
+        margin-top: 20px; /* Increase top margin for spacing */
+    }
+
+    .motorImage {
+        width: 100%; /* Full width for smaller screens */
+        max-width: 300px; /* Limit maximum width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .hrtag {
+        border: none;
+        height: 2px; 
+        background-color: black;
+        width: 90%; /* Full width for smaller screens */
+        /* max-width: 300px; Limit maximum width */
+        margin: 20px auto; /* Center horizontally with top and bottom margin */
+    }
+}
+

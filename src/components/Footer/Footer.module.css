@@ -1,0 +1,55 @@
+/* Footer.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 19px; 
+}
+
+.content {
+    text-align: center; 
+}
+
+.lastline {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.lastfooter {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ec3237;
+    height: 170px;
+    align-items: center;
+    color: white;
+}
+
+.icons {
+    width: 40px;
+    height: 40px;
+}
+
+.bold {
+    font-weight: bold; 
+    font-size: 22px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .container {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .lastfooter {
+        flex-direction: column; /* Change to a column layout on smaller screens */
+        align-items: center; /* Center items vertically */
+        height: auto; /* Set height to auto to allow content to expand vertically */
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .lastfooter > div {
+        margin-bottom: 20px; /* Increase margin between groups of icons and text */
+    }
+}

@@ -1,0 +1,26 @@
+.maindiv {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tropheeimage {
+    width: 90%; 
+    max-height: 1690px;
+    margin-right: 200px;
+}
+
+.texts {
+    font-family: 'Foundry Origin', sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.awardimage {
+    width: 100%;
+    max-height: 1100px;
+    margin-top: 20px; 
+}

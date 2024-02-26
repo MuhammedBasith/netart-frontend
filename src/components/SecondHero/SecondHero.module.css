@@ -1,0 +1,32 @@
+.firsttext{
+    font-family: 'Foundry Origin', sans-serif;
+    font-size: 19px;
+    font-weight:500;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    justify-content: center; 
+    align-items: center;
+}
+
+.motorImage {
+    justify-content: center;
+    width: 75%;
+}
+
+
+.hrtag {
+    border: none;
+    height: 2px; 
+    background-color: black;
+}
+

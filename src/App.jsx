@@ -1,18 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import Header from './components/Header/Header'
+import FirstHero from './components/FirstHero/FirstHero'
+import SecondHero from './components/SecondHero/SecondHero'
+import Footer from './components/Footer/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <h1>hello world</h1>
-      </div>
+      <Header />
+      <FirstHero />
+      <SecondHero />
+      <Footer />
     </>
   )
 }
 
-export default App
+export default App;

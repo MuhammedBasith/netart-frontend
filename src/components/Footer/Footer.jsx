@@ -12,7 +12,7 @@ function Footer() {
             <div className={styles.lastfooter}>
                 <div>
                     <img className={styles.icons} src="./phone.png" alt="" />
-                    <span className={styles.bold}>Toll free 1800 200 1234</span>
+                    <span>Toll free </span><span className={styles.bold}>1800 200 1234</span>
                 </div>
 
                 <div>

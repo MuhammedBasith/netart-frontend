@@ -11,17 +11,17 @@ function Footer() {
 
             <div className={styles.lastfooter}>
                 <div>
-                    <img className={styles.icons} src="../../../assets/phone.png" alt="" />
+                    <img className={styles.icons} src=".phone.png" alt="" />
                     <span className={styles.bold}>Toll free 1800 200 1234</span>
                 </div>
 
                 <div>
-                    <img className={styles.icons} src="../../../assets/facebook.png" alt="" />
+                    <img className={styles.icons} src="./facebook.png" alt="" />
                     <span>Toll free 1800 200 1234</span>
                 </div>
 
                 <div>
-                    <img className={styles.icons} src="../../../assets/globe.png" alt="" />
+                    <img className={styles.icons} src="./globe.png" alt="" />
                     <span>Toll free 1800 200 1234</span>
                 </div>
             </div>

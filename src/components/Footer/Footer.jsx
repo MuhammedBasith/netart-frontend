@@ -17,12 +17,12 @@ function Footer() {
 
                 <div>
                     <img className={styles.icons} src="./facebook.png" alt="" />
-                    <span>Toll free 1800 200 1234</span>
+                    <span>www.facebook.com/cripumps</span>
                 </div>
 
                 <div>
                     <img className={styles.icons} src="./globe.png" alt="" />
-                    <span>Toll free 1800 200 1234</span>
+                    <span>www.crigroups.com</span>
                 </div>
             </div>
         </div>
